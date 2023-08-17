@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*
+    font-family: Poppins 
+
+    Font Weight: 700
+
+    font-family: Roboto
+
+    Font Weight: 400 e 700
+*/
+:root {
+    --purple-bg: #290742;
+    --dark-bg: #170027;
+    --button-bg: #9e6dc2;
+    --white: #fff;
+    --light-purple: #fbf6ff;
+    --green: #4fff4b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#home {
+    display: flex;
+    background-color: var(--purple-bg);
+    height: 588px;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1169px;
+    height: 44px;
+    margin: 64px;
+    
+}
+
+menu {
+    font-family: 'roboto', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+
+#caixas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 311px;
+}
+
+.titulo {
+    color: #9e6dc2;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.lorem {
+    color: #fbf6ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px;
+}
+
+#imagem {
+    display: flex;
+    width: 570px;
+    height: 346px;
+}
