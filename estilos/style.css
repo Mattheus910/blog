@@ -29,6 +29,10 @@ body {
     height: 100vh;
 }
 
+main {
+    min-width: 1170px;
+}
+
 #home {
     display: flex;
     background-color: var(--purple-bg);
@@ -42,12 +46,18 @@ header {
     align-items: center;
     width: 1169px;
     height: 44px;
-    margin: 64px;
+    margin:  64px 64px 64px 100px;
     
 }
 
 menu {
+    display: flex;
+    gap: 20px;
+}
+
+#home > header > menu > a {
     font-family: 'roboto', sans-serif;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
 }
@@ -83,4 +93,55 @@ menu {
     display: flex;
     width: 570px;
     height: 346px;
+}
+
+.linha {
+    display: block;
+    background-color: #4fff4b;
+    width: 100vw;
+    height: 6px;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px 0px;
+    gap: 30px;
+}
+
+.post1 {
+    width: 596px;
+    height: 546px;
+    margin-right: 50px;
+}
+
+.side-post {
+    width: 472px;
+    height: 414px;
+}
+
+.retangulo {
+    width: 470px;
+    height: 1px;
+    background-color: #F2E7FA;
+    margin: 20px 0px;
+}
+
+.post2, .post3, .post4 {
+    width: 370px;
+    height: 458px;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #290742;
+    margin: 10px 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
