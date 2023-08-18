@@ -55,11 +55,34 @@ menu {
     gap: 20px;
 }
 
+#home > #caixas > #texto > a {
+    color: #9e6dc2;
+    font-family: 'roboto',sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
 #home > header > menu > a {
     font-family: 'roboto', sans-serif;
     font-size: 16px;
     text-decoration: none;
     color: #fff;
+}
+
+#iprocura {
+    width: 230px;
+    height: 44px;
+    background-color: #170027;
+    color: #fbf6ff;
+    border: none;
+    border-radius: 4px;
+}
+
+.botao {
+    width: 70px;
+    height: 44px;
 }
 
 #caixas {
@@ -86,7 +109,7 @@ menu {
     color: #fbf6ff;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 #imagem {
@@ -100,6 +123,7 @@ menu {
     background-color: #4fff4b;
     width: 100vw;
     height: 6px;
+    margin-top: 64px;
 }
 
 #content {
